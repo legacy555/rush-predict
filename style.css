@@ -27,9 +27,8 @@ nav {
 
 main {
     background-color: rgb(255, 255, 255);
-    height: 2000px;
+    height: 3000px;
     padding-top: 20px;
-    
     padding-left: 70px;
 
 }
@@ -66,7 +65,7 @@ h1 {
 .box1 {
     background-color: black;
     height: 40px;
-    width: 550px;
+    width: 660px;
     margin-top: 70px;
     text-align: center;
     
@@ -218,7 +217,7 @@ nav a {
 .box1-3 {
     background-color: black;
     height: 40px;
-    width: 480px;
+    width: 550px;
     margin-top: -290px;
     text-align: center;
     margin-left: -20px;
@@ -279,4 +278,100 @@ footer p a {
 .content-table-3 td:nth-last-child(5n+1) {
 
         background-color: green;
+}
+
+h6 {
+    font-size: 30px;
+    margin-top: 150px;
+    font-family: Helvetica;
+    color: rgb(12, 146, 0);
+}
+
+
+
+section p {
+    font-size: 16px;
+    color: black;
+    margin-top: -60px;
+       
+}
+
+section h1{
+    color: black;
+    font-size: 32px;
+    font-family:  Helvetica;
+    color: rgb(12, 146, 0);
+}
+
+ .container-1 p {
+     font-size: 16px;
+     line-height: 1.6;
+     word-spacing: 3px;
+     font-family:  'Arial Narrow' ;
+     padding: 8px 8px;
+     margin: -110px 0;
+     margin-left: -110px;
+     text-indent: 50px;
+     text-align: justify;
+     padding: 100px;
+     
+ }
+section h5 {
+    font-size: 32px;
+    
+    margin: 20px 0;
+    font-family: Helvetica;
+    color: rgb(12, 146, 0);
+}
+.container-2 p {
+    font-size: 16px;
+     line-height: 1.6;
+     word-spacing: 3px;
+     font-family: 'Arial';
+     padding: 8px 8px;
+     margin: -110px 0;
+     margin-left: -110px;
+     text-indent: 50px;
+     text-align: justify;
+     padding: 100px;
+
+}
+section h4 {
+     font-size: 32px;
+     color: rgb(12, 146, 0);
+     margin: 20px 0;
+     margin-left: -20px;
+     font-family: Helvetica;
+
+}
+ .container-3 p{
+    font-size: 16px;
+    line-height: 1.6;
+    word-spacing: 3px;
+    font-family: Arial;
+    padding: 8px 8px;
+    margin: -110px 0;
+    margin-left: -110px;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 100px;
+}
+section h3 {
+    font-size: 25px;
+    color: rgb(12, 146, 0);
+    text-align: center;
+    font-family: Helvetica;
+
+}
+.container-4 p{
+    font-size: 16px;
+     line-height: 1.6;
+     word-spacing: 3px;
+     font-family: Arial;
+     padding: 8px 8px;
+     margin: -110px 0;
+     margin-left: -80px;
+     text-indent: 50px;
+     text-align: center;
+     padding: 90px;
 }
