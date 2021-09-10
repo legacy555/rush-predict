@@ -6,10 +6,10 @@ body {
             margin-left: auto;
             width: 1100px;
 }
+.img {
+       align-self: center;
 
-  
-
-
+}
 header{
     background-color: #009879;
     height: 70px;
@@ -27,7 +27,7 @@ nav {
 
 main {
     background-color: rgb(255, 255, 255);
-    height: 3000px;
+    height:3000 px;
     padding-top: 20px;
     padding-left: 70px;
 
@@ -36,6 +36,7 @@ footer {
     background-color: #00000088;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 110px 0;
 }
 h1 {
     font-size: 40px;
@@ -235,7 +236,7 @@ nav a {
     margin: -20px 0;
     font-size: 25px;
     min-width: 390px;
-    margin-left: -10px;
+    margin-left: -70px;
 }
 
 .content-table-3 thead tr {
@@ -375,3 +376,5 @@ section h3 {
      text-align: center;
      padding: 90px;
 }
+
+ 
