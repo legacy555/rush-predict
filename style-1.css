@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    
+}
+header{
+    background-color: #009879;
+    height: 70px;
+    text-align: center;
+    padding: 16px 16px 0;
+    width: 100%;
+    
+}
+.first-back {
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    padding: 16px 16px 0;
+    width: 100%;
+    
+}
+
+
+.black-ground h1 {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+.Tab {
+    background-color: rgb(255, 255, 255);
+}
+.DATE {
+    background-color: rgb(26, 23, 23);
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin: 130px;
+    margin-top: 125px;
+    
+}
+.DATE h4{ 
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 11px;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: white;
+    text-align: center;
+}
+.content-table th,
+.content-table td {
+    padding: 10px 5px
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    
+}
+.index-links div h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100px;
+    color:#111;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+ .Back {
+    background-color: #008c89;
+    height: 500px;
+    margin-top: 70px;
+ }
+ @media only screen and (min-width: 1000px) {
+    .content-table {
+        border-collapse: collapse;
+        margin-left: 400px;
+        font-size: 15px;
+        width: 600px;
+        margin-top: -100px;
+    }
+    .content-table th,
+    .content-table td {
+    padding: 10px 5px
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.DATE {
+    background-color: rgb(26, 23, 23);
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin: 130px;
+    margin-top: 120px;
+    margin-left: 640px;
+}
+.Tab {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    
+}
+ }
+ footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 30px;
+    background-color: #111;
+}
+
+footer ul {
+    width: fit-content;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+}

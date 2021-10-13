@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    
+}
+header{
+    background-color: #009879;
+    height: 70px;
+    text-align: center;
+    padding: 16px 16px 0;
+    
+    
+}
+.first-back {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    
+    width: 100%;
+    
+}
+.black-ground h1 {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    letter-spacing: 4px;
+    padding: 19px 19px 0;
+}
+.email h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+
+}
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 160px;
+    background-color: #111;
+}
+
+footer ul {
+    width: fit-content;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+}
